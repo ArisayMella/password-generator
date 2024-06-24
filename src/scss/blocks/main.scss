@@ -1,1 +1,74 @@
 
+
+
+.password-generator{
+    padding: 2.25 rem;
+    width: 95%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    background-color: ;
+}
+
+.password {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    color: inherit;
+    background-color: ;
+    box-shadow: 0 4px 4px var();
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: inherit;
+
+}
+
+.range-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    padding: 1.25rem;
+    background-color: #241442;
+    box-shadow: 0 4px 4px var(black);
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.range-label{
+    display: block;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+}
+
+.range-input{
+    height: 3px;
+    width: 80%;
+    accent-color: var(#7400e4);
+}
+
+.button{
+    height: 60px;
+    width: 100%;
+    border: none;
+    color: inherit;
+    background-color: #a200d4;
+    box-shadow: 0 4px 4px var(black);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+
+    .button:hover {
+        transform: scale(0.95);
+        background-color: var(#8502ad);
+    }
+
+}
