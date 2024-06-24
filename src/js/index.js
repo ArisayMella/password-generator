@@ -2,3 +2,4 @@
 import '../scss/styles.scss';
 
 const passwordElement = document.getElementById('password');
+const lenghtTextElement
